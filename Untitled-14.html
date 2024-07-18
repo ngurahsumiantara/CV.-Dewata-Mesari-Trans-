@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULIR PENYEWAAN CV. DEWATA MESARI TRANS</title>
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+</head>
+<body style="background-color: aqua;">
+<h1 class="form1"> FORMULIR PENYEWAAN CV. DEWATA MESARI TRANS </h1>
+    <form>
+        <table>
+            <tr>
+                <td class="font">Nama :</td>
+                <td><input type="text" name="nama" ></td>
+            </tr>
+            <!-- <tr>
+                <td class="font">No. KTP :</td>
+                <td><input type="text" name="no_ktp" ></td>
+            </tr> -->
+            <tr>
+                <td class="font">No. Tlp :</td>
+                <td><input type="text" name="nama" ></td>
+            </tr>
+            <tr>
+                <td class="font">Jenis Kelamin :</td>
+                <td class="font"><input type="radio" name="JK" VALUE="1">Laki-laki
+                    <input type="radio" name="JK" VALUE="0">Perempuan<br>
+            </tr>
+            <tr>
+                <td class="font">Alamat :</td>
+                <td>
+                    <textarea rows="4" cols="20"></textarea></td>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td class="font">Tanggal Sewa :</td>
+                <td><input type="date" name="tgl_sewa" ></td>
+            </tr> -->
+            </tr>
+            <tr>
+                <td class="font">Unggah KTP :</td>
+                <td><input type="file" name="ktp_image" accept="image/*" required></td>
+            </tr>
+            <tr>
+                <td class="font">Tanggal Sewa :</td>
+                <td>
+                    <input type="date" name="tgl_sewa" >
+                    <span class="font">sampai </span> <br>
+                    <input type="date" name="tgl_kembali" >
+                </td>
+            
+          <!--  <tr>
+                <td>PASSWORD:</td>
+                <td><input type="password" name="pass"></td>
+            </tr> -->
+           
+          <!-- <tr>
+                <td>PROGRAM STUDI:</td>
+                <td><input type="radio" name="PRODI" VALUE="SI">SISTEM INFORMASI<br>
+                    <input type="radio" name="PRODI" VALUE="SI">SISTEM KOMPUTER<br>
+                    <input type="radio" name="PRODI" VALUE="SI">TEKNOLOGI INFORMASI<br>
+            </tr> --> 
+            <tr>
+                <td class="font">Jenis Kendaraan :</td>
+                <td>
+                    <select name="jenis_kendaraan" required>
+                        <option value="" disabled selected>Pilih jenis kendaraan</option>
+                       <!-- <optgroup label="PILIHAN KENDARAAN"></optgroup>-->
+                        <option value="">ALPHARD</option>
+                        <option value="">INNOVA REBORN</option>
+                    </optgroup>
+                    </select>
+                </td>
+            </tr>
+           <!-- <tr>
+                <td>HOBI:</td>
+                    <td><input type="checkbox" name="hb" VALUE="hb1">BERENANG<br>
+                        <input type="checkbox" name="hb" VALUE="hb2">SEPAK BOLA<br>
+                        <input type="checkbox" name="hb" VALUE="hb3">BULU TANGKIS<br>
+                        <input type="checkbox" name="hb" VALUE="hb4">MANCING<br>
+                        <input type="checkbox" name="hb" VALUE="hb5">VOLI<br>
+            </tr>-->  
+            <tr>
+                <td></td>
+                <td><input type="submit" VALUE="Kirim Sekarang">
+                <br><button type="reset">Reset</button>
+            </tr>
+        </table>
+    </form>
+    <div>
+        <a href="index.html"> KEMBALI</a>
+    </div>
+        
+</body>
+</html>
